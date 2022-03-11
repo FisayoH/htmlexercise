@@ -1,7 +1,23 @@
+
+h3{
+   text-align: center; 
+}
 div{
     background: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     
+}
+
+div a{
+    padding: 50px;
+    text-align: center;
     
+}
+
+#coloredlist{
+color: red;
 }
 
 a{
@@ -9,6 +25,31 @@ a{
     float:center;
 }
 
-body{
-    background: rgb(49, 48, 48);
+table{
+    width: 100%;
+
 }
+
+thead{
+    background: blue;
+}
+
+tr:nth-child(10){
+    background-color: green;
+}
+
+.whiteText{
+    color: white;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding: 10%;
+}   
